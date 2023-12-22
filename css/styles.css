@@ -1,0 +1,58 @@
+/* Reset some default styles for the page */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply Roboto font to the entire page */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Make the navbar links inline */
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the navbar links */
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Style the main content section */
+.main-content {
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
