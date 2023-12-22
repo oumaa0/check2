@@ -6,22 +6,22 @@ body, h1, h2, p, ul, li {
 
 /* Apply Roboto font to the entire page */
 body {
-    font-family: 'Roboto', sans-serif;
-}
+    font-family: "Roboto";  
+    font-weight: 500;
+    background-color:#5e6c6d }
 
 /* Style the header */
 header {
-    background-color: #3498db;
-    color: #fff;
+    background-color: #73c9df;
+    color: #e44343;
     padding: 20px;
     text-align: center;
 }
 
 /* Style the navbar */
 .navbar {
-    background-color: #333;
-    padding: 10px;
-}
+    background-color: #fdffff
+ }
 
 /* Make the navbar links inline */
 .navbar ul {
@@ -31,12 +31,13 @@ header {
 .navbar li {
     display: inline;
     margin-right: 20px;
+    color: #dd0909;
 }
 
 /* Style the navbar links */
 .nav-link {
-    text-decoration: none;
-    color: #fff;
+    text-decoration:none;
+    color: #eb0303;
     font-weight: bold;
     font-size: 16px;
 }
@@ -44,12 +45,15 @@ header {
 /* Style the main content section */
 .main-content {
     padding: 20px;
+}   
+.title {
+    color: #09147c;
 }
 
 /* Style the footer */
 footer {
-    background-color: #3498db;
-    color: #fff;
+    background-color: #73c9df;  
+    color: #ffffff;
     text-align: center;
     padding: 10px;
     position: fixed;
